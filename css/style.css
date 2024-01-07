@@ -5,6 +5,7 @@
     --sky: #43E7DF;
     --white : #fff;
     --fontdm: 'DM Sans', sans-serif; 
+    --fontchivo: 'Chivo', sans-serif;
 }
 *{
     padding: 0;
@@ -43,13 +44,26 @@ h1,h2,h3,h4,h5,h6{
     color: var(--white);
     border: 1px solid var(--secondary);
 }
+.common_pera {
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--fontdm);
+    line-height: 32px;
+    letter-spacing: -0.045px;
+}
 /* ============common code end============ */
 
 
 /* ============Navbar code start============ */
 #navbar{
     padding: 32px;
-    background-color: var(--primary);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    
 }
 .nav_wrapper {
     display: flex;
@@ -91,8 +105,102 @@ h1,h2,h3,h4,h5,h6{
 /* ============Navbar code end============ */
 
 /* ============banner code start============ */
-#container {
+#banner {
     background-color: var(--primary);
+    padding: 195px 0 456px 0;
+    position: relative;
+}
+.ban_wrapper {
+    text-align: center;
+    z-index: 111;
+}
+.ban_wrapper h1{
+    width: 796px;
+    color: var(--white);
+    font-size: 56px;
+    font-family: var(--fontchivo);
+    font-weight: 600;
+    line-height: 64px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    z-index: -122;
+}
+.ban_wrapper p {
+    width: 467px;
+    color: var(--white);
+    margin: 0 auto;
+}
+.ban_form {
+    margin-top: 32px;
+    display: inline-block;
+}
+.ban_form form {
+    position: relative;
+    border-radius: 6px;
+    padding-top: 3px;
+    border: none;
+    width: 480px;
+}
+.ban_form form input{
+    padding: 24px;
+    padding-right: 225px;
+    border: none;
+    border-radius: 6px;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+.ban_form form button {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    border-radius: 6px;
+    background-color: var(--sky);
+    color: var(--secondary);
+    padding: 15px 48px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    font-family: var(--fontdm);
+    text-transform: capitalize;
+
+}
+.ban_shape1 {
+    position: absolute;
+    left: -5%;
+    top: -15%;
+    z-index: 11;
+}
+.ban_shape2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 11;
+}
+.ban_laptop {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+}
+.ban_laptop .ban_shape3 {
+    position: absolute;
+    z-index: 11;
+    margin: 98px 105px 0px 0;
+}
+.ban_shape4 {
+    position: absolute;
+    right: 0;
+    bottom: -127px;
+    z-index: 7;
+}
+.ban_shape5 {
+    position: absolute;
+    left: 0;
+    bottom: -127px;
+    z-index: 7;
+
 }
 /* ============banner code end============ */
 
