@@ -1,0 +1,109 @@
+/* ============common code start============ */
+:root {
+    --primary : #3639A4;
+    --secondary: #2C2643;
+    --sky: #43E7DF;
+    --white : #fff;
+    --fontdm: 'DM Sans', sans-serif; 
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul,ol {
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    line-height: .8;
+}
+.container{
+    width: 1410px;
+    margin: 0 auto;
+}
+.common_btn {
+    color: var(--secondary);
+    background-color: var(--sky);
+    font-family: var(--fontdm);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    text-transform: capitalize;
+    display: inline-block;
+    border: 1px solid var(--sky);
+    border-radius: 6px;
+    padding: 20px 48px;
+    transition: all linear .3s;
+}
+.common_btn:hover{
+    background-color: transparent;
+    color: var(--white);
+    border: 1px solid var(--secondary);
+}
+/* ============common code end============ */
+
+
+/* ============Navbar code start============ */
+#navbar{
+    padding: 32px;
+    background-color: var(--primary);
+}
+.nav_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav_menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
+}
+.nav_menu ul li a{
+    color: var(--white);
+    text-transform: capitalize;
+    font-family: var(--fontdm);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.nav_btn a:nth-child(1) {
+    background-color: transparent;
+    color: var(--white);
+    border: none;
+    transition: all linear .3s;
+}
+.nav_btn a:nth-child(1):hover {
+    background-color: var(--sky);
+    color: var(--secondary);
+}
+/* ============Navbar code end============ */
+
+/* ============banner code start============ */
+/* ============banner code end============ */
+
+/* ============common code start============ */
+/* ============common code end============ */
+
+/* ============common code start============ */
+/* ============common code end============ */
+
+/* ============common code start============ */
+/* ============common code end============ */
+
+/* ============common code start============ */
+/* ============common code end============ */
+
+/* ============common code start============ */
+/* ============common code end============ */
+
+/* ============common code start============ */
+/* ============common code end============ */
