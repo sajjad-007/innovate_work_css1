@@ -4,6 +4,7 @@
     --secondary: #2C2643;
     --sky: #43E7DF;
     --white : #fff;
+    --white2: #645E76;
     --fontdm: 'DM Sans', sans-serif; 
     --fontchivo: 'Chivo', sans-serif;
 }
@@ -51,6 +52,13 @@ h1,h2,h3,h4,h5,h6{
     font-family: var(--fontdm);
     line-height: 32px;
     letter-spacing: -0.045px;
+}
+.sub_heading{
+    font-size: 46px;
+    font-weight: 400;
+    font-family: var(--fontchivo);
+    line-height: 58px;
+    color: var(--secondary);
 }
 /* ============common code end============ */
 
@@ -165,7 +173,7 @@ h1,h2,h3,h4,h5,h6{
     line-height: 20px;
     font-family: var(--fontdm);
     text-transform: capitalize;
-
+    cursor: pointer;
 }
 .ban_shape1 {
     position: absolute;
@@ -204,8 +212,76 @@ h1,h2,h3,h4,h5,h6{
 }
 /* ============banner code end============ */
 
-/* ============common code start============ */
-/* ============common code end============ */
+/* ============platform code start============ */
+#platform{
+    margin-top: 551px;
+    margin-bottom: 160px;
+}
+.platform_wrapper{
+    position: relative;
+}
+.platform_heading{
+    display: flex;
+    justify-content: center;
+    column-gap: 260px;
+}
+.platform_heading h2{
+    width: 504px;
+}
+.platform_heading p{
+    color: var(--white2);
+    width: 530px;
+}
+.platform_items {
+    display: flex;
+    gap: 200px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.plat_cont{
+    margin-top: 116px;
+
+}
+.plat_cont_img{
+    width: 110px;
+    height: 110px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.plat_cont_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.plat_cont h4{
+    font-size: 24px;
+    font-family: var(--fontchivo);
+    font-weight: 400;
+    line-height: 36px;
+    color: var(--secondary);
+    padding: 26px 0 12px 0;
+    width: 300px;
+    text-align: center;
+}
+.plat_cont p{
+    width: 300px;
+    color: var(--white2);
+    text-align: center;
+
+}
+.plat_vector2 {
+    position: absolute;
+    left: 307px;
+    top: 289px;
+    z-index: 111;
+}.plat_vector1 {
+    position: absolute;
+    right: 305px;
+    top: 235px;
+    z-index: 111;
+}
+/* ============platform code end============ */
 
 /* ============common code start============ */
 /* ============common code end============ */
