@@ -287,6 +287,9 @@ h1,h2,h3,h4,h5,h6{
 #feature{
     padding-bottom: 160px;
 }
+.feature_part2{
+    margin-left: 100px;
+}
 .feature_part2 h2{
     width: 553px;
 }
@@ -300,8 +303,17 @@ h1,h2,h3,h4,h5,h6{
     flex-wrap: wrap;
     /* background-color: aquamarine; */
 }
-.feature_part2_items:nth-child(2).feature_part2_cont_circle{
-    background-color: yellow;
+.feature_part2_cont:nth-child(2) .feature_part2_cont_circle{
+    background-color: #FAF1E8;
+}
+.feature_part2_cont:nth-child(2) .feature_part2_cont_circle i{
+    color: #FFCA4B;
+}
+.feature_part2_cont:nth-child(3) .feature_part2_cont_circle{
+    background-color: rgba(201, 240, 243, 0.808);
+}
+.feature_part2_cont:nth-child(3) .feature_part2_cont_circle i{
+    color: var(--sky);
 }
 .feature_part2_cont_circle {
     height: 60px;
@@ -337,6 +349,7 @@ h1,h2,h3,h4,h5,h6{
 .feature_part2_cont .common_btn:hover{
     color: var(--secondary);
 }
+
 /* ============feature code end============ */
 
 /* ============common code start============ */
