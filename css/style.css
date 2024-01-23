@@ -5,6 +5,7 @@
     --sky: #43E7DF;
     --white : #fff;
     --white2: #645E76;
+    --pink : #FF7364;
     --fontdm: 'DM Sans', sans-serif; 
     --fontchivo: 'Chivo', sans-serif;
 }
@@ -55,7 +56,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .sub_heading{
     font-size: 46px;
-    font-weight: 400;
+    font-weight: 600;
     font-family: var(--fontchivo);
     line-height: 58px;
     color: var(--secondary);
@@ -64,7 +65,7 @@ h1,h2,h3,h4,h5,h6{
     font-size: 20px;
     font-weight: 500;
     font-family: var(--fontdm);
-    color: #FF7364;
+    color: var(--pink);
     text-transform: capitalize;
 }
 /* ============common code end============ */
@@ -361,7 +362,7 @@ h1,h2,h3,h4,h5,h6{
 
 /* ============integration code start============ */
 #integration {
-    padding-bottom: 123px;
+    padding:173px 0 123px 0;
 }
 .int_wrapper{
     display: flex;
@@ -503,8 +504,177 @@ h1,h2,h3,h4,h5,h6{
 }
 /* ============integration code end============ */
 
+/* ============service code start============ */
+#service {
+    padding: 123px;
+}
+.service_heading {
+    text-align: center;
+}
+.service_heading h2{
+    margin-top: 4px;
+}
+.service_cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 26px;
+    margin: 80px 0;
+}
+.service_items {
+    padding: 32px;
+    width: 330px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    transition: all linear .3s;
+    border-radius: 20px;
+}
+.service_items .ser_circle {
+    height: 92px;
+    width: 92px;
+    border-radius: 50%;
+    background: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all linear .3s;
+}
+.service_items .ser_circle i{
+    font-size: 36px;
+    color: var(--pink);
+}
+.service_items h3{
+    font-size: 22px;
+    font-weight: 600;
+    font-family: var(--secondary);
+    line-height: 36px;
+    text-transform: capitalize;
+    width: 258px;
+    padding: 26px 0 8px 0;
+    transition: all linear .3s;
+}
+.service_items p{
+    width: 258px;
+    color: var(--white2);
+    margin-bottom: 26px;
+    transition: all linear .3s;
+
+}
+.service_items a{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--secondary);
+    line-height: 26px;
+    text-transform: capitalize;
+    padding-top: 26px;
+    color: var(--primary);
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    transition: all linear .3s;
+
+}
+.service_items i{
+    margin-left: 4px;
+    margin-top: 4px;
+    font-size: 18px;
+}
+.service_items:hover{
+    background-color: var(--pink);   
+}
+.service_items:hover .ser_circle {
+    background-color: white;
+}
+.service_items:hover .ser_circle i {
+    color: var(--pink);
+}
+.service_items:hover h3{
+    color: var(--white);
+}
+.service_items:hover p{
+    color: var(--white);
+}
+.service_items:hover a{
+    color: var(--white);
+}
+.service_items:nth-child(2) .ser_circle {
+    background-color: rgb(177, 177, 236);
+}
+.service_items:nth-child(2) .ser_circle i{
+    color: var(--primary);
+}
+.service_items:nth-child(2):hover .ser_circle {
+    background-color: var(--white);
+}
+.service_items:nth-child(2):hover{
+    background-color: var(--primary);
+}
+.service_items:nth-child(2):hover .ser_circle i{
+    color: var(--primary);
+}
+.service_items:nth-child(3) .ser_circle {
+    background-color: rgb(195, 242, 195);
+}
+.service_items:nth-child(3) .ser_circle i{
+    color: green;
+}
+.service_items:nth-child(3):hover .ser_circle {
+    background-color: var(--white);
+}
+.service_items:nth-child(3):hover{
+    background-color: green;
+}
+.service_items:nth-child(3):hover .ser_circle i{
+    color: green;
+}
+/* === */
+.service_items:nth-child(4) .ser_circle {
+    background-color: rgb(188, 227, 242);
+}
+.service_items:nth-child(4) .ser_circle i{
+    color: var(--sky);
+}
+.service_items:nth-child(4):hover .ser_circle {
+    background-color: var(--white);
+}
+.service_items:nth-child(4):hover{
+    background-color: skyblue;
+}
+.service_items:nth-child(4):hover .ser_circle i{
+    color: var(--sky);
+}
+.service_btn {
+    text-align: center;
+}
+.service_btn a{
+    background-color: transparent;
+}
+.service_btn a:hover{
+    color: var(--white);
+    background: var(--primary);
+}
+/* ============service code end============ */
+
 /* ============common code start============ */
 /* ============common code end============ */
+
+/* ============common code start============ */
+/* ============common code end============ */
+
+/* ============service code start============ */
+/* ============service code end============ */
+
+/* ============common code start============ */
+/* ============common code end============ */
+
+/* ============common code start============ */
+/* ============common code end============ */
+
+/* ============service code start============ */
+/* ============service code end============ */
 
 /* ============common code start============ */
 /* ============common code end============ */
