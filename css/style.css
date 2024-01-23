@@ -49,7 +49,7 @@ h1,h2,h3,h4,h5,h6{
 .common_pera {
     color: var(--white);
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 500;
     font-family: var(--fontdm);
     line-height: 32px;
     letter-spacing: -0.045px;
@@ -530,6 +530,7 @@ h1,h2,h3,h4,h5,h6{
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
     transition: all linear .3s;
     border-radius: 20px;
+    cursor: pointer;
 }
 .service_items .ser_circle {
     height: 92px;
@@ -725,8 +726,209 @@ h1,h2,h3,h4,h5,h6{
 }
 /* ============trust code end============ */
 
-/* ============common code start============ */
-/* ============common code end============ */
+/* ============price code start============ */
+#price {
+    padding-bottom: 160px;
+}
+.price_heading {
+    text-align: center;
+}
+.price_heading h2{
+    width: 624px;
+    margin: 0 auto;
+}
+.price_toggle {
+    margin: 38px 0 78px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+.price_toggle span {
+    font-size: 24px;
+    font-family: var(--fontchivo);
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: var(--primary);
+}
+.price_toggle span:nth-child(2){
+    background-color: var(--white2);
+}
+.price_tog_circle {
+    background: var(--primary);
+    width: 96px;
+    height: 40px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+}
+.price_tog_round {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: var(--white);
+    margin-left: 8px;
+}
+.price_cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+.price_items {
+    padding: 40px 60px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 20px;
+    transition: all linear .3s;
+    cursor: pointer;
+}
+.price_circle {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background: #E8F2FA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    transition: all linear .3s;
+
+}
+.price_circle i{
+    color: #2290F5;
+    font-size: 40px;
+    transition: all linear .3s;
+}
+.price_center {
+    text-align: center;
+    margin: 0 auto;
+}
+.price_center h4 {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: var(--fontchivo); 
+    line-height: 36px;
+    text-transform: capitalize;
+    color: var(--primary);
+    margin: 32px 0 2px 0;
+    transition: all linear .3s;
+}
+.price_center .ten{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: var(--fontchivo);
+    line-height: 54px;
+    color: var(--secondary);
+    letter-spacing: -0.88px;
+    transition: all linear .3s;
+}
+.price_center p{
+    color: var(--white2);
+    margin-bottom: 40px;
+    transition: all linear .3s;
+}
+.price_center p span{
+    color: var(--primary);
+    font-weight: 600;
+    transition: all linear .3s;
+}
+.price_list ul {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+.price_list ul li{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+.price_list_circle {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #F4EBFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all linear .3s;
+}
+.price_list_circle i{
+    font-size: 20px;
+    color: blue;
+    transition: all linear .3s;
+}
+.price_list ul li p{
+    color: var(--white2);
+    transition: all linear .3s;
+}
+.price_btn a{
+    padding: 20px 105px;
+    background: var(--primary);
+    display: inline-block;
+    margin-top: 60px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    font-family: var(--fontdm);
+    text-transform: capitalize;
+    border-radius: 6px;
+    color: var(--white);
+    border: 1px solid var(--primary);
+    transition: all linear .3s;
+}
+.price_btn a:hover{
+    background-color: var(--white);
+    color: var(--secondary);
+}
+.price_items:hover {
+    background-color: var(--primary);
+}
+.price_items:hover .price_circle {
+    background-color: var(--white);
+}
+.price_items:hover .price_circle i{
+    color: var(--primary);
+}
+.price_items:hover .price_center h4{
+    color: var(--sky);
+}
+.price_items:hover .price_center .ten{
+    color: var(--white);
+}
+.price_items:hover .price_center p{
+    color: var(--white);
+}
+.price_items:hover .price_center p span{
+    color: var(--sky);
+}
+.price_items:hover .price_list p{
+    color: var(--white);
+}
+.price_items:hover a{
+    background-color: var(--sky);
+    border: 1px solid var(--sky);
+    color: var(--secondary);
+}
+.price_items:nth-child(2) .price_circle{
+    background-color: #ECE8F9;
+}
+.price_items:nth-child(2) .price_circle i{
+    color: var(--pink);
+}
+.price_items:nth-child(2):hover .price_circle i{
+    color: var(--primary);
+}
+.price_items:nth-child(3) .price_circle{
+    background-color: #ECE8F9;
+}
+.price_items:nth-child(3) .price_circle i{
+    color: var(--primary);
+}
+/* ============price code end============ */
 
 /* ============service code start============ */
 /* ============service code end============ */
