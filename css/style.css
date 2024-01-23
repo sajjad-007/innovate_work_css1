@@ -60,6 +60,13 @@ h1,h2,h3,h4,h5,h6{
     line-height: 58px;
     color: var(--secondary);
 }
+.small_heading {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--fontdm);
+    color: #FF7364;
+    text-transform: capitalize;
+}
 /* ============common code end============ */
 
 
@@ -285,7 +292,7 @@ h1,h2,h3,h4,h5,h6{
 
 /* ============feature code start============ */
 #feature{
-    padding-bottom: 160px;
+    padding-bottom: 256px;
 }
 .feature_part2{
     margin-left: 100px;
@@ -352,8 +359,149 @@ h1,h2,h3,h4,h5,h6{
 
 /* ============feature code end============ */
 
-/* ============common code start============ */
-/* ============common code end============ */
+/* ============integration code start============ */
+#integration {
+    padding-bottom: 123px;
+}
+.int_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.int_cont{
+    width: 587px;
+}
+.int_cont h2{
+    font-size: 46px;
+    font-weight: 500;
+    font-family: var(--fontchivo);
+    line-height: 58px;
+    text-transform: capitalize;
+    width: 100%;
+    margin: 4px 0 20px 0;
+}
+.int_cont p {
+    width: 533px;
+    margin-bottom: 40px;
+    color: var(--white2);
+}
+.int_cont a{
+    background-color: #3639A4;
+    border: 1px solid #3639A4;
+    color: var(--white);
+}
+.int_cont .common_btn:hover{
+    color: var(--secondary);
+}
+.int_items {
+    width: 697px;
+    position: relative;
+    height: 495px;
+}
+.int_icons1:first-child {
+    width: 332px;
+    height: 142px;
+    position: absolute;
+    left: 4px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.int_icons1:first-child img{
+    height: 50px;
+    width: 202px;
+    object-fit: cover;
+}
+.int_icons1:nth-child(2) {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 142px;
+    width: 332px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.int_icons1:nth-child(2) img{
+    height: 43px;
+    width: 202px;
+    object-fit: cover;
+}
+.int_icons1:nth-child(3) {
+    position: absolute;
+    left: 20px;
+    top: 39%;
+    height: 142px;
+    width: 151px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.int_icons1:nth-child(3) img{
+    height: 100%;
+    width: 100% ;
+    object-fit: cover;
+}
+.int_icons1:nth-child(4) {
+    position: absolute;
+    left: 40%;
+    top: 39%;
+    height: 142px;
+    width: 151px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.int_icons1:nth-child(5) {
+    position: absolute;
+    right: 4px;
+    top: 39%;
+    height: 142px;
+    width: 151px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.int_icons1:nth-child(5) img{
+    height: 76px;
+    width: 76px ;
+    object-fit: cover;
+}
+.int_icons1:nth-child(6) {
+    position: absolute;
+    left: 4px;
+    bottom: 0;
+    height: 142px;
+    width: 290px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.int_icons1:nth-child(6) img{
+    height: 76px;
+    width: 100% ;
+    object-fit: cover;
+}
+.int_icons1:nth-child(7) {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 142px;
+    width: 290px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.int_icons1:nth-child(7) img{
+    height: 46px;
+    width: 100% ;
+    object-fit: cover;
+}
+/* ============integration code end============ */
 
 /* ============common code start============ */
 /* ============common code end============ */
